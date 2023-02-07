@@ -29,6 +29,6 @@ function operate(num1, operator, num2) {
   }
 }
 
-function () {
-  
-}
+let displayValue = "";
+
+function display() {}
