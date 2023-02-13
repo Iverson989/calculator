@@ -1,31 +1,47 @@
 body {
   margin: 0 auto;
-  width: 30vw;
-  border: medium solid brown;
+  width: 10vw;
+  border: medium solid #8b4513;
 }
 
 #display {
   border: thick solid #000000;
   text-align: end;
+  height: 5vh;
+  font-size: 4vh;
+}
+
+#buttonDiv {
+  display: grid;
 }
 
 #row1 {
-  text-align: center;
-  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  justify-self: center;
 }
 
 #row2 {
-  text-align: center;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  justify-self: center;
 }
 
 #row3 {
-  text-align: center;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  justify-self: center;
 }
 
 #row4 {
-  text-align: center;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  justify-self: center;
 }
 
 button {
   border-radius: 45%;
+  height: 2.5vw;
+  width: 2.5vw;
+  margin: auto;
 }
