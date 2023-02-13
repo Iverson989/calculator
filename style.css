@@ -6,9 +6,9 @@ body {
 
 #display {
   border: thick solid #000000;
-  text-align: end;
+  text-align: center;
   height: 5vh;
-  font-size: 4vh;
+  font-size: 1.8vw;
 }
 
 #buttonDiv {
@@ -43,5 +43,5 @@ button {
   border-radius: 45%;
   height: 2.5vw;
   width: 2.5vw;
-  margin: auto;
+  font-size: 2vw;
 }
