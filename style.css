@@ -1,0 +1,31 @@
+body {
+  margin: 0 auto;
+  width: 30vw;
+  border: medium solid brown;
+}
+
+#display {
+  border: thick solid #000000;
+  text-align: end;
+}
+
+#row1 {
+  text-align: center;
+  width: 100%;
+}
+
+#row2 {
+  text-align: center;
+}
+
+#row3 {
+  text-align: center;
+}
+
+#row4 {
+  text-align: center;
+}
+
+button {
+  border-radius: 45%;
+}
