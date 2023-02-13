@@ -1,7 +1,7 @@
 body {
   margin: 0 auto;
   width: 10vw;
-  border: medium solid #8b4513;
+  border: medium solid #000000;
 }
 
 #display {
@@ -13,6 +13,7 @@ body {
 
 #buttonDiv {
   display: grid;
+  background-color: #000000;
 }
 
 #row1 {
